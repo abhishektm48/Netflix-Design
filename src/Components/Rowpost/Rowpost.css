@@ -26,6 +26,32 @@
     cursor:pointer;
 }
 
+.smallPoster:hover{
+    transform:scale(1.05);
+}
+
+.smallPoster{
+	 
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    text-decoration: none!important;
+  }
+
+h2{
+    margin-top: 30px;
+}
+
 .poster:hover{
     transform:scale(1.05);
 }
+
+.poster{
+	 
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    text-decoration: none!important;
+  }

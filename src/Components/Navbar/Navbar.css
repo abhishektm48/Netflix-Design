@@ -1,22 +1,83 @@
 .navbar{
-    position: fixed;
+    position: absolute;
     top: 0;
+    right: 0;
     width: 100%;
     height: 30px;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
-    background-color: #111;
+    /*justify-content: space-between;*/
+    background-color:transparent;
 }
 
 .logo{
-    position: fixed;
-    left: 20px;
+    
+    margin-left: 50px;
     width: 80px;
+    cursor: pointer;
 }
 
 .avatar{
-    position: fixed;
-    right: 20px;
+    right:0;
     width: 30px;
+    cursor: pointer;
+}
+
+a{
+    color: #dfdcdc;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 55px;
+}
+
+.home{
+    color: #fff;
+    margin-left: 55px;
+}
+
+a:hover{
+    color: #fff;
+}
+
+a{
+	 
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    text-decoration: none!important;
+  }
+
+i{
+    cursor: pointer;
+    float: right;
+    color: #dfdcdc;
+    margin-right: 55px;
+}
+
+i:hover{
+    color: #fff;
+}
+
+i{
+	 
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    text-decoration: none!important;
+}
+
+.mar{
+    margin-left: 600px;
+}
+
+
+@media (max-width:800px){
+    a{display: none;}
+    .toggle{display: block;}
+}
+
+@media (max-width:1600px){
+    .toggle{display: none;}
 }
